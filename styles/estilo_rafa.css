@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Scope+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #a70202;
+}
+
+.cabecalho_menu_carol{
+    color:#e0925b;
+    text-decoration: none;
+    font-weight:280;
+    font-size: 75px;
+    font-family: 'Bebas Neue', sans-serif;
+    margin-left: 80px;
+    margin-bottom: 76px;
+
+}
+
+.cabecalho_menu_link{
+    color:#e0925b;
+    text-decoration: none;
+    font-weight:280;
+    font-size: 75px;
+    font-family: 'Bebas Neue', sans-serif;
+    margin-left: 0px;
+    margin-bottom: 76px;
+
+}
+
+.cabecalho_menu_yusuf{
+    color:#e0925b;
+    text-decoration: none;
+    font-weight:280;
+    font-size: 75px;
+    font-family: 'Bebas Neue', sans-serif;
+    margin-left: 80px;
+    margin-bottom: 76px;
+}
+
+nav a:hover{
+    color: #f7f1a8;
+}
+
+.cabecalho{
+    width: 1124px;
+    margin: 61px auto 90px auto;
+    gap: auto;
+    background-color: var(--cor-terciaria);
+}
+
+hmtl,body{
+    overflow: hidden;
+}
+
+.apresentacao{
+    width: 1124px;
+    margin: 0px auto 30px auto;
+
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 40px;
+
+}
+
+.apresentacao_contexto{
+    width: 602px;
+}
+
+.apresentacao_contexto_titulo{
+    color: #FFFFE0;
+    font-size: 50px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.apresentacao_contexto_texto{
+    color: #010101;
+    font-size: 20px;
+    font-family: var(--fonte2);
+    font-weight: 45px;
+    line-height: 45px;
+    text-align: justify;
+    border: 25px, solid #FFF68F;
+    border-radius: 2px;
+    background-color: #FFF68F;
+    margin-top: 0%;
+  
+}
+
+.apresentacao_link{
+    display:grid; 
+    grid-template-rows: auto;
+
+    justify-content:flex-start;
+    gap: 30px;
+}
+
+.apresentacao_links_link{
+    display: grid;                        
+    grid-template-columns: 10px 80px;   
+    justify-content: flex-start;             
+    
+    border: 2px solid var(--cor-secundaria);
+    padding: 21px 0px;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 24px;
+    font-weight: 450;
+    font-family: 'Staatliches';
+    font-style: oblique;
+    width: 378px;
+
+    text-decoration: none;
+    color: #BBFFFF
+}
+
+.apresentacao_links_link2{
+    display: grid;                        
+    grid-template-columns: 20px 80px;   
+    justify-content: flex-start;             
+    
+    border: 2px solid var(--cor_secundaria);
+    padding: 15px 0px;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 24px;
+    font-weight: 480;
+    font-family: 'Staatliches';
+    font-style: oblique;
+    width: 378px;
+    
+
+    text-decoration: none;
+    color:#BBFFFF
+}
+
+
+.apresentacao_links_subtitulo{
+    margin-top: 25px;
+    color: #FFFFE0;
+    font-weight: 25px;
+    font-size: 50px;   
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.logo-olimpiadas{
+    position: absolute;
+    top: 933px;
+    left: 550px;
+}
+
+.judo{
+    position: absolute;
+    top: 970px;
+    left: 550px;
+
+}
+
+
+.bronze{
+    position: absolute;
+    top: 880px;
+    right: 407px;
+}
+
+.ouro{
+    position: absolute;
+    top: 881px;
+    right: 334px;
+}
+

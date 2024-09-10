@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Gayathri:wght@100;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Gayathri:wght@100;400;700&family=Kdam+Thmor+Pro&display=swap');
+ 
+:root{
+    --fonte-texto: 'ABeeZee', sans serif;
+    --fonte-cabecalho: 'Kdam Thmor Pro', sans serif;
+}
+html, body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.img_capa{
+    height: 280px;
+    margin-left: 215px;
+    margin-top: 40px;
+}
+.cabeçalho{
+    margin-top: -250px;
+    margin-left: 1000px
+   
+}
+.cabeçalho a{
+    font-size: 45px;
+    text-decoration: none;
+    font-family: var(--fonte-cabecalho);
+    color: #356C84;
+    padding: 20px;
+}
+
+.cabeçalho :hover{
+    color: #5fadce;
+}
+
+.imagem_fundo_meio{
+    margin-top: 176px;
+}
+.imagem_fundo_ponta{
+    position: absolute;
+    top: 375px;
+    left: 125px;
+    height: 450px;
+}
+.texto_informativo{
+    position: absolute;
+    top: 350px;
+    left: 900px;
+    width: 900px;
+    font-family: var(--fonte-texto);
+    font-size: 24px;
+    color: aliceblue;
+}
+.imagem_fundo_baixa{
+    position: absolute;
+    top: 843px;
+    left: 0px;
+}
+.imagem_telefone{
+    position: absolute;
+    top: 860px;
+    left: 40px;
+}
+.numero_telefone{
+    position: absolute;
+    top: 870px;
+    left: 110px;
+}
+.video_explicativo{
+    position: absolute;
+    top: 335px;
+    left: 95px;
+}

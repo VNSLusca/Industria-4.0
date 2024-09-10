@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faustina:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root{
+    --fonte-abel: 'Abel', sans-serif;
+    --fonte-faustina: 'Faustina', sans-serif; 
+}
+html, body{
+    background-color: #8EB6AC; 
+    overflow-x: hidden;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.minha-imagem {
+    position: absolute;
+    top: 200px;
+    left: 110px;
+    height: 400px;
+}
+
+
+.text_carac {
+    position: relative;
+    top: 60px; 
+    left: 50px; 
+    bottom: 80px;
+}
+.CARACTERISTICAS{
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    margin-left: 60px; 
+    margin-right: 20px; 
+    color: #CAEDED;
+    font-family: var(--fonte-abel);
+    font-size: 60px;
+}
+
+.HOME{
+    color: #F5EFCB;
+    font-family: var(--fonte-abel);
+    font-size: 40px;
+    position: absolute;
+    top: 70px;
+    left: 1000px;
+    text-decoration: none;
+}
+
+.HOME :hover{
+    color: #b5a029
+}
+
+.CRIACAO{
+    position: absolute;
+    top: 70px;
+    left: 1200px;
+    color: #F5EFCB;
+    font-family: var(--fonte-abel);
+    font-size: 40px;
+    text-decoration: none;
+}
+.CRIACAO :hover{
+    color: #b5a029
+}
+
+.FINALIDADES{
+    position: absolute;
+    top: 70px;
+    left: 1430px;
+    color: #F5EFCB;
+    font-family: var(--fonte-abel);
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.FINALIDADES :hover{
+    color: #b5a029
+}
+
+.RETANGULOAZUL{
+    height: 90px;
+    margin-left: 950px;
+    margin-top: 50px;
+}
+
+.REVOLUCAO{
+    position: absolute;
+    margin-top: 70px; 
+    margin-left: 1000px; 
+    margin-right: 100px; 
+    color: #015853;
+    font-family: var(--fonte-abel);
+    font-size: 40px;
+    width: 500px;
+}
+
+.SETAVERDE{
+    position: absolute;
+    top: 200px;
+    left: 1900px;
+}
+
+.LINHA{
+    height: 2px;
+    margin-top: 475px;
+}
+
+.DIGITALIZACAO{
+    position: absolute;
+    margin-top: 686px; 
+    margin-left: 60px; 
+    margin-right: 100px; 
+    color: #F5EFCB;
+    font-family: var(--fonte-abel);
+    font-size: 54px;
+    width: 500px
+}
+
+.Textao01{
+    position: absolute;
+    margin-top:130px; 
+    margin-left: 60px; 
+    margin-right: 100px;
+    background-color: #F5EFCB;
+    border: 30px, solid #F5EFCB;
+    border-radius:20px; 
+    color: #18271F;
+
+    font-family: var(--fonte-faustina);
+    font-size: 26px;
+    width: 800px
+}
+
+.PC{
+    position: absolute;
+    height: 400px;
+    top: 800px;
+    left: 1000px;
+}
+
+.IOT{
+    position: absolute;
+    height: 400px;
+    top: 1300px;
+    left: 60px;
+}
+
+.SENSORIZAÇAO{
+    position: absolute;
+    margin-top: 556px; 
+    margin-left: 920px; 
+    color: #F5EFCB;
+    font-family: var(--fonte-abel);
+    font-size: 54px;
+    width: 500px
+}
+
+.Textao02{
+    position: absolute;
+    margin-top: 630px; 
+    margin-left: 920px; 
+    margin-right: 300px; 
+    color: #18271F;
+    background-color: #F5EFCB;
+    border: 30px, solid #F5EFCB;
+    border-radius:20px; 
+    font-family: var(--fonte-faustina);
+    font-size: 26px;
+    width: 800px
+}
+
+.Cabine{
+    position: absolute;
+    height: 490px;
+    top: 1840px;
+    left: 60px;
+}
+
+.OTIMIZACAO{
+    position: absolute;
+    margin-top: 1090px; 
+    margin-left: 920px; 
+    margin-right: 300px; 
+    color: #F5EFCB;
+    font-family: var(--fonte-abel);
+    font-size: 54px;
+    width: 500px
+}
+
+.Textao03{
+    position: absolute;
+    margin-top: 1170px;
+    margin-left: 920px; 
+    margin-right: 300px; 
+    color: #18271F;
+    background-color: #F5EFCB;
+    border: 30px, solid #F5EFCB;
+    border-radius:20px; 
+    font-family: var(--fonte-faustina);
+    font-size: 26px;
+    width: 800px
+}
+
+.ANALISE{
+    position: absolute;
+    margin-top: 2425px; 
+    margin-left: 65px; 
+    margin-right: 300px; 
+    color: #F5EFCB;
+    font-family: var(--fonte-abel);
+    font-size: 56px;
+    width: 500px
+}
+
+.Textao04{
+    position: absolute;
+    margin-top: 2500px; 
+    margin-left: 60px; 
+    margin-right: 300px; 
+    margin-bottom: 1000px;
+    background-color: #F5EFCB;
+    border: 30px, solid #F5EFCB;
+    border-radius:30px; 
+    color: #18271F;
+    font-family: var(--fonte-faustina);
+    font-size: 26px;
+    width: 750px
+    
+}
+
+.GESTAO{
+    position: absolute;
+    margin-top: 1620px; 
+    margin-left: 920px; 
+    margin-right: 300px; 
+    color: #F5EFCB;
+    font-family: var(--fonte-abel);
+    font-size: 54px;
+    width: 500px
+}
+
+.Textao05{
+    position: absolute;
+    margin-top: 1700px; 
+    margin-left: 920px;
+    color: #18271F;
+    background-color: #F5EFCB;
+    border: 30px, solid #F5EFCB;
+    border-radius:20px; 
+    font-family: var(--fonte-faustina);
+    font-size: 26px;
+    width: 800px
+}
+
+.CONTROLE{
+    position: absolute;
+    margin-top: 1620px; 
+    margin-left: 60px; 
+    color: #F5EFCB;
+    font-family: var(--fonte-abel);
+    font-size: 56px;
+    width: 800px
+}
+ 
+.Textao06{
+    position: absolute;
+    margin-top: 1700px; 
+    margin-left: 60px; 
+    color: #18271F;
+    background-color: #F5EFCB;
+    border: 30px, solid #F5EFCB;
+    border-radius:20px; 
+    font-family: var(--fonte-faustina);
+    font-size: 26px;
+    width: 750px
+}
+
+.TRABALHADORES{
+    position: absolute;
+    height: 500px;
+    top: 2900px;
+    left: 945px;
+}
+.retangulo_baixo_telefone{
+    position: absolute;
+    top: 3500px;
+}
+.seta {
+    position: absolute;
+    top: 185px;
+    left: 1530px;
+    font-size: 3rem;
+    cursor: pointer;
+    color:#18271F;
+    display: inline-block;
+    transition: transform 0.3s;
+}
+
+.seta:hover {
+    transform: scale(1.2);
+}
+
+.texto_seta {
+    position: absolute;
+    top: 260px;
+    left: 950px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #CAEDED;
+    border: 15px, solid #CAEDED;
+    border-radius:20px; 
+    color: #333;
+    display: none;
+    width: 660px;
+}
+
+.botao_seta {
+    display: none;
+}
+
+.botao_seta:checked + .seta + .texto_seta {
+    display: block;
+}

@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Scope+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+
+:root{
+    --cor_primaria: #030378;
+    --cor_secundaria: #BBFFFF;
+    --cor_terciaria: #FFF68F;
+
+    --fonte: 'Bebas Neue', sans-serif;
+    --fonte2: 'Scope One', oblique;
+    --fonte3: 'Krona One', sans-serif;
+    --fonte4: 'Staaliches', sans-serif
+}
+
+body{
+    background-color: var(--cor_primaria) ;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+hmtl,body{
+    overflow: hidden;
+}
+
+nav a:hover{
+    color: var(--cor_terciaria);
+}
+
+.cabecalho{
+    width: 1124px;
+    margin: 61px auto 90px auto;
+    gap: auto;
+    background-color: var(--cor-terciaria);
+}
+
+.cabecalho_menu_yusuf{
+    color: var(--cor_secundaria);
+    text-decoration: none;
+    font-weight:280;
+    font-size: 75px;
+    font-family: 'Bebas Neue', sans-serif;
+    margin-left: 80px;
+    margin-bottom: 76px;
+
+}
+
+.cabecalho_menu_link{
+    color: var(--cor_secundaria);
+    text-decoration: none;
+    font-weight:280;
+    font-size: 75px;
+    font-family: 'Bebas Neue', sans-serif;
+    margin-left: 0px;
+    margin-bottom: 76px;
+
+}
+
+.cabecalho_menu_rafa{
+    color:var(--cor_secundaria);
+    text-decoration: none;
+    font-weight:280;
+    font-size: 75px;
+    font-family: 'Bebas Neue', sans-serif;
+    margin-left: 80px;
+    margin-bottom: 76px;
+}
+
+.apresentacao{
+    width: 1124px;
+    margin: 0px auto 30px auto;
+
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 40px;
+
+}
+
+.apresentacao_contexto{
+    width: 602px;
+}
+
+.apresentacao_contexto_titulo{
+    color: #FFFFE0;
+    font-weight: 280;
+    font-size: 45px;
+    font-family: var(--fonte);
+}
+
+.apresentacao_contexto_texto{
+    color: #010101;
+    font-size: 13px;
+    font-family: var(--fonte2);
+    font-weight: bold;
+    line-height: 32px;
+    text-align: justify;
+    border: 25px, solid #FFF68F;
+    border-radius: 2px;
+    background-color: #FFF68F;
+    margin-top: 0%;
+  
+}
+
+.apresentacao_link{
+    display:grid; 
+    grid-template-rows: auto;
+
+    justify-content:flex-start;
+    gap: 30px;
+}
+
+.apresentacao_links_link{
+    display: grid;                        
+    grid-template-columns: 10px 180px;   
+    justify-content: flex-start;             
+    
+    border: 2px solid var(--cor-terciaria);
+    padding: 21px 0px;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 24px;
+    font-weight: 450;
+    font-family: 'Staatliches';
+    font-style: oblique;
+    width: 378px;
+
+    text-decoration: none;
+    color: #BBFFFF
+}
+
+.apresentacao_links_link2{
+    display: grid;                        
+    grid-template-columns: 20px 165px;   
+    justify-content: flex-start;             
+    
+    border: 2px solid var(--cor-terciaria);
+    padding: 15px 0px;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 24px;
+    font-weight: 480;
+    font-family: 'Staatliches';
+    font-style: oblique;
+    width: 378px;
+    
+
+    text-decoration: none;
+    color:#BBFFFF
+}
+.apresentacao_links_subtitulo{
+    margin-top: 25px;
+    color: #FFFFE0;
+    font-weight: 280;
+    font-size: 30px;   
+    font-family: var(--fonte)
+}
+
+.apresentacao_links_subtitulo:hover{
+    color: var(--cor_secundaria);
+}
+
+.carol{
+    border: 25px, solid var(--cor_secundaria);
+    border-radius: 35px;
+    background-color: #BBFFFF;
+    
+}
+
+.prata{
+    position:absolute;
+    top: 900px;
+}
+
+.bronze{
+    position:absolute;
+    top: 900px;
+    right:470px;
+}

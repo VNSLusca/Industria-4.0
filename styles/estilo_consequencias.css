@@ -1,0 +1,186 @@
+@import url('https://fonts.google.com/specimen/Faustina?query=Faustina');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+:root {
+    --cor-primaria: #010101;
+    --cor-secundaria: #f6f6f6;
+    --cor-terciaria: #F5EFCB;
+    --cor-hover: #272727;
+
+    --fonte-primaria: 'Faustina', sans-serif;
+    --fonte-secundaria: 'Abel', sans-serif;
+}
+html, body{
+    overflow-x: hidden;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    position: absolute;
+    top: 0;
+    width: 960px;
+    height: 3240px;
+}
+
+.esquerda{
+    background-color: #D9D9D9;
+    z-index: 0;
+}
+
+.direita{
+    background-color:#356C84;
+    position: absolute;
+    right: 0;
+    z-index: 0;
+    
+}
+
+.titulo{
+    position: absolute;
+    font-size: 90px;
+    color: #356C84;
+    font-family: var(--fonte-secundaria);
+    margin: 60px 700px 0 115px;
+    z-index: 1;
+}
+
+.cabeçalho a{
+    position: absolute;
+    top: 50px;
+    font-size: 50px;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-terciaria);
+    z-index: 1;
+    text-decoration: none;
+}
+
+.cabeçalho :hover{
+    color: #f5e171;
+}
+
+.home{
+    position: absolute;
+    right: 740px;
+}
+
+.criacao{
+    position: absolute;
+    right: 490px;
+}
+
+.consequencias{
+    position: absolute;
+    right: 90px;
+}
+
+.folha{
+    position: absolute;
+    left: 35px;
+    top: 200px;
+}
+
+.etica{
+    position: absolute;
+    left: 35px;
+    top: 800px;
+}
+
+.grupo2{
+    position: absolute;
+    left: 35px;
+    top: 1380px;
+    font-size: 45px;
+    font-family: var(--fonte-secundaria);
+    color:#356C84;
+}
+
+.paragrafo_esquerda{
+    position: absolute;
+    left: 40px;
+    top: 1520px;
+    font-size: 24px;
+    font-family: 'Faustina', 'sans-serif';
+    color: #356C84;
+    width: 750px;
+}
+
+.paragrafo_direita1{
+    position: absolute;
+    right: 110px;
+    top: 300px;
+    font-size: 24px;
+    font-family:'Faustina', 'sans-serif';
+    color:var(--cor-terciaria);
+    width: 800px;
+}
+
+.paragrafo_direita2{
+    position: absolute;
+    right: 110px;
+    bottom:315px;
+    font-size: 24px;
+    font-family: 'Faustina', 'sans-serif';
+    color:var(--cor-terciaria);
+    width: 800px;
+}
+
+.grupo1{
+    position: absolute;
+    right: 210px;
+    top: 160px;
+    width: 700px;
+    font-size: 45px;
+    font-family: var(--fonte-secundaria);
+    color:var(--cor-terciaria)
+}
+
+.grupo3{
+    position: absolute;
+    right: 210px;
+    bottom: 1190px;
+    width: 700px;
+    font-size: 45px;
+    font-family: var(--fonte-secundaria);
+    color:var(--cor-terciaria)
+}
+
+.dinheiro{
+    position: absolute;
+    top: 1220px;
+    right: 58px;
+}
+
+.phone{
+    position: absolute;
+    bottom: 20px;
+    left: -860px;
+    z-index: 0;
+}
+
+.preto{
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
+
+.preto2{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.numero{
+    position: absolute;
+    bottom: 23px;
+    left: -800px;
+}
+
+.senai{
+    position: absolute;
+    bottom: 280px;
+    left:50px;
+}

@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&display=swap');
+
+.root{
+    --fonte: 'Bebas-Neue', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: auto;
+    box-sizing: border-box;
+}
+hmtl,body{
+    overflow: hidden;
+}
+
+.body{
+    background-color: aliceblue;
+}
+
+.bandeira{
+    margin-right:50px;
+}
+
+.logo-paris{
+    position: absolute;
+    left: 840px;
+    top: 85px;
+}
+
+.botao{
+    font-family:'Bebas Neue', sans-serif;
+    font-size: 80px;
+    font-weight: 100px;
+    text-decoration: none;
+    background-color: #c4b72d;
+    border: 20px, solid, #c4b72d ;
+    border-radius: 20px;
+    color: aliceblue;
+    position: absolute;
+    top: 760px;
+    left: 970px; 
+}
+
+.botao:hover{
+    color: #ffef42;
+}
